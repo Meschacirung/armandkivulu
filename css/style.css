@@ -1,10 +1,8 @@
 body{
-    color: #ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: url('images/3563847.jpg')fixed;
-    background-position: center;
+    -webkit-overflow-x:hidden;
+    -moz-overflow-x:hidden;
     overflow-x: hidden;
-    width:100%;
+    overflow-wrap: break-word;
 }
 .title{
     font-size: 600%;
@@ -25,15 +23,11 @@ body{
     opacity:.5;
     border-radius:10px;
 }
-
-
 .cardz{
-    position: absolute;
-    padding:20px;  
+    position: absolute; 
     left:0;
     right:0; 
     text-align: center;
-    max-width:100%;
 }
 .anim{
     z-index:2;
